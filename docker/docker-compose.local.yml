@@ -16,7 +16,7 @@ services:
       - "./../docker/env/excell-socket-local.env:/app/excell/code/.env"
     networks:
       excell:
-        ipv4_address: 172.1.0.9
+        ipv4_address: 172.1.0.3
     links:
       - db
   db:
